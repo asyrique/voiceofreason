@@ -1,10 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
+import Nav from './nav.jsx';
 
-class Hello extends React.Component {
+module.exports = class App extends React.Component {
   render() {
-    return <div className='' >Hello</div>
+    return (<div>
+              <Nav/>
+              <div className="container">
+              </div>
+            </div>);
   }
-}
-
-//ReactDOM.render(<Hello/>, document.getElementById('root'));
+};
