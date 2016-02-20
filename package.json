@@ -1,0 +1,29 @@
+{
+  "name": "voiceofreason",
+  "version": "1.0.0",
+  "description": "An AI-enabled behaviour hacker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asyrique/voiceofreason.git"
+  },
+  "author": "Asyrique Thevendran <asyrique@gmail.com> (life.asyrique.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asyrique/voiceofreason/issues"
+  },
+  "homepage": "https://github.com/asyrique/voiceofreason#readme",
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
